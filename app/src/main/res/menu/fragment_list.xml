@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/list_item_search"
+            android:title="Search"
+            app:actionViewClass="android.support.v7.widget.SearchView"
+            app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/filterButton"
+        android:title="Filter"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/filterByType"
+                android:title="By Location Type"
+                app:showAsAction="ifRoom">
+                <menu>
+                    <item
+                        android:id="@+id/filterRestaurant"
+                        android:title="Restaurants only" />
+                    <item
+                        android:id="@+id/filterBar"
+                        android:title="Bars only" />
+                    <item
+                        android:id="@+id/filterCafe"
+                        android:title="Cafes only" />
+                    <item
+                        android:id="@+id/filterJuiceBar"
+                        android:title="Juice Bars only" />
+                    <item
+                        android:id="@+id/filterGastroPub"
+                        android:title="Gastropubs only" />
+                    <item
+                        android:id="@+id/filterDessertBar"
+                        android:title="Dessert Bars only" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/filterByArea"
+                android:title="By Location Area"
+                app:showAsAction="ifRoom">
+                <menu>
+                    <item
+                        android:id="@+id/bsmFilter"
+                        android:title="Broad Street Mall"/>
+                    <item
+                        android:id="@+id/cavFilter"
+                        android:title="Caversham"/>
+                    <item
+                        android:id="@+id/centFilter"
+                        android:title="Central Reading"/>
+                    <item
+                        android:id="@+id/emmerFilter"
+                        android:title="Emmer Green"/>
+                    <item
+                        android:id="@+id/northFilter"
+                        android:title="North Reading"/>
+                    <item
+                        android:id="@+id/oracleFilter"
+                        android:title="The Oracle"/>
+                    <item
+                        android:id="@+id/oracleRivFilter"
+                        android:title="Oracle Riverside"/>
+                    <item
+                        android:id="@+id/southFilter"
+                        android:title="South Reading"/>
+                    <item
+                        android:id="@+id/tileFilter"
+                        android:title="Tilehurst"/>
+                    <item
+                        android:id="@+id/townFilter"
+                        android:title="Town Center"/>
+                    <item
+                        android:id="@+id/westFilter"
+                        android:title="West Reading"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/removeFilterBoth"
+                android:title="Remove Filter"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/list_item_alpha_name"
+            android:title="Sort by name"
+            app:showAsAction="never" />
+
+    <item android:id="@+id/list_item_alpha_area"
+            android:title="Sort by area"
+            app:showAsAction="never" />
+
+    <item android:id="@+id/list_item_alpha_type"
+            android:title="Sort by type"
+            app:showAsAction="never" />
+
+    <item android:id="@+id/list_item_desc_veg"
+            android:title="Sort by V/V+"
+            app:showAsAction="never" />
+
+    <item android:id="@+id/list_item_desc_gf"
+            android:title="Sort by GF"
+            app:showAsAction="never" />
+
+    <item android:id="@+id/list_item_desc_cal"
+            android:title="Sort by Cal"
+            app:showAsAction="never" />
+
+    <item android:id="@+id/list_item_desc_allergen"
+            android:title="Sort by Allergen"
+            app:showAsAction="never" />
+
+    <item android:id="@+id/list_about_contact"
+            android:title="About/Contact"
+            app:showAsAction="never" />
+
+</menu>

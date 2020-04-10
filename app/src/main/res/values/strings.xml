@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ReadiBites</string>
+    <string name="location_title_dummy">dummy title</string>
+    <string name="location_area_dummy">dummy area</string>
+    <string name="location_type_dummy">dummy food type</string>
+
+    <string name="location_restaurant_label">Restaurant</string>
+    <string name="location_bar_label">Bar</string>
+    <string name="location_cafe_label">Cafe</string>
+    <string name="location_gastropub_label">Gastropub</string>
+    <string name="location_juicebar_label">Juice Bar</string>
+    <string name="location_dessertbar_label">Dessert Bar</string>
+    
+    <string name="location_vegan_label">Vegan</string>
+    <string name="location_vegetarian_label">Vegetarian</string>
+    <string name="location_gf_label">Gluten Free</string>
+</resources>
