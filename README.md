@@ -8,3 +8,8 @@ Press:
 GetReading: http://bit.ly/2DHscQ5 | http://bit.ly/2D0PSP5  
 That's Thames Valley TV: https://youtu.be/PZWE_tytUmc  
 Reading.co.uk: http://bit.ly/2Ff9RiO
+
+---
+
+
+![alt text](https://raw.githubusercontent.com/ow-ro/Readibites/master/readibites_screens.png "Logo Title Text 1")
